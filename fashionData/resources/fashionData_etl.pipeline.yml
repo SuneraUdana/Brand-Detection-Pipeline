@@ -1,0 +1,20 @@
+# The main pipeline for fashionData
+
+resources:
+  pipelines:
+    fashionData_etl:
+      name: fashionData_etl
+      catalog: ${var.catalog}
+      schema: ${var.schema}
+      serverless: true
+      root_path: "../src/fashionData_etl"
+
+      libraries:
+        - glob:
+            include: ../src/fashionData_etl/transformations/**
+
+      environment:
+        dependencies:
+          # We include every dependency defined by pyproject.toml by defining an editable environment
+          # that points to the folder where pyproject.toml is deployed.
+          - --editable ${workspace.file_path}
