@@ -1,103 +1,153 @@
-# Brand Detection Pipeline 🧠👗
-
-An automated fashion pattern detection and brand analysis pipeline built on **Databricks**, powered by a **Medallion Architecture** (Bronze → Silver → Gold) and deployed with a **CI/CD pipeline via GitHub Actions**.
 
 ---
 
-## 🏗️ Architecture Overview
-  Raw CSV Data (Databricks Volume)
-              ↓
-[Bronze Layer] — Raw ingestion as Delta table
-              ↓
-[Silver Layer] — Cleaned, confidence-tiered, null-filtered
-              ↓
-[Gold Layer] — Aggregated stats, ML-ready features
-              ↓
-[CI/CD] — Auto-refreshes on every GitHub push
+## 🚀 Features
+
+### 📊 Tab 1 — Pipeline Dashboard
+- Live KPIs: Total predictions, accuracy, correct vs wrong counts
+- Per-class accuracy horizontal bar chart
+- Normalized confusion matrix heatmap
+- Top misclassification pairs
+- Prediction distribution (donut chart)
+- Gold table summary from Databricks
+- Filterable predictions explorer
+> *Requires Databricks connection — gracefully disabled when credits are unavailable*
+
+### 🏷️ Tab 2 — Automated Product Tagger
+- Upload any clothing image → instant CNN classification
+- Top-3 predictions with confidence scores
+- Confidence thresholds: ✅ High / ⚠️ Low / ❌ Uncertain
+- One-click save to Databricks Delta table (`product_tagging_log`)
+
+### 🔍 Tab 3 — Visual Search
+- Upload a query image → retrieve top 5 visually similar catalog items
+- Feature extraction from CNN flatten layer
+- Cosine similarity over 10,000 catalog embeddings
+- Results displayed with similarity scores
+
+### 🏭 Tab 4 — Warehouse Scanner
+- Simulates a conveyor-belt item scanner
+- KPIs: items scanned, accuracy, avg scan time (ms)
+- Per-category accuracy breakdown
+- Scan speed distribution histogram
+- Full raw scan log explorer
+
+### 📈 Tab 5 — Trend Forecasting
+- Weekly category demand tracking across 10 clothing types
+- Week-over-week (WoW) change % for each category
+- Identifies hottest rising and sharpest falling categories
+- Line chart: weekly volume trends
+- Bar chart: WoW % changes with green/red color coding
+
+### 📦 Tab 6 — Returns Reduction
+- Flags items as High / Medium / Low return risk based on model confidence
+- KPIs: total items, risk tier counts and percentages
+- Donut chart: risk distribution
+- Error rate by risk tier (bar chart)
+- Filterable browse by risk tier
 
 ---
 
-## 📁 Project Structure
-Brand-Detection-Pipeline/
-├── .github/
-│ └── workflows/
-│ └── databricks-ci.yml # GitHub Actions CI/CD workflow
-├── sql/
-│ ├── bronze.sql # Raw CSV → Delta table
-│ ├── silver.sql # Cleaned & enriched layer
-│ └── gold.sql # Aggregated ML-ready layer
-├── src/
-│ └── run_pipeline.py # Python runner for Bronze→Silver→Gold
-├── fashionData/ # Source fashion dataset
-└── README.md
+## 🧠 Model Performance
+
+| Metric              | Value     |
+|---------------------|-----------|
+| Architecture        | CNN (Conv2D × 2 + Dense) |
+| Dataset             | Fashion MNIST (70,000 images) |
+| Training samples    | 60,000    |
+| Test samples        | 10,000    |
+| Overall Accuracy    | ~91%      |
+| Classes             | 10        |
+| Input shape         | 28×28×1   |
+
+**Hardest classes** (most confused):
+- Shirt ↔ T-shirt/Top
+- Coat ↔ Pullover
+- Sneaker ↔ Ankle boot
+
+---
+
+## 🗂️ Project Structure
+
+fashion-mnist-dashboard/
+│
+├── app.py # Main Streamlit application (6 tabs)
+├── requirements.txt # Python dependencies
+├── .env # Databricks credentials (not committed)
+├── .env.example # Template for environment variables
+│
+├── models/
+│ ├── fashion_cnn.keras # Trained CNN model
+│ ├── catalog_embeddings.npy # Pre-computed feature embeddings (10K)
+│ └── catalog_labels.npy # Corresponding class labels
+│
+├── data/ # (gitignored — generated locally)
+│ ├── warehouse_scan_log.csv # Simulated warehouse scan results
+│ ├── trend_forecast_data.csv # Weekly trend simulation data
+│ └── returns_risk_log.csv # Returns risk scoring data
+│
+└── notebooks/
+└── ML-Model.ipynb # Model training + Databricks pipeline
 
 
 ---
 
-## 🔧 Tech Stack
+## ⚙️ Setup & Run Locally
 
-| Tool | Purpose |
-|---|---|
-| **Databricks** | Cloud data platform (SQL Warehouse) |
-| **Delta Lake** | Storage format for all three layers |
-| **Python** | Pipeline runner and data connection |
-| **databricks-sql-connector** | Python ↔ Databricks SQL Warehouse |
-| **GitHub Actions** | CI/CD automation on every push |
-
----
-
-## 📊 Dataset
-
-Fashion pattern classification dataset containing:
-- **16+ clothing pattern categories** (plain, floral, stripes, polka dot, tribal, ikat, geometry, etc.)
-- **13,000+ labelled items** with confidence scores
-- Source image URLs (S3)
-
----
-
-## 🥉🥈🥇 Medallion Layers
-
-### Bronze
-- Raw CSV ingested directly from Databricks Volume
-- No transformations — pure source of truth
-
-### Silver
-- Null rows removed
-- Category lowercased and trimmed
-- Confidence score rounded
-- `confidence_tier` column added: `high (≥0.8)` / `medium (≥0.5)` / `low (<0.5)`
-
-### Gold
-- Aggregated per category: total items, avg/min/max confidence
-- High / medium / low confidence counts and percentages
-- Ready for ML feature engineering and dashboarding
-
----
-
-## ⚙️ CI/CD Pipeline
-
-Every push to `main` automatically:
-1. Spins up a GitHub Actions runner
-2. Installs `databricks-sql-connector`
-3. Connects to the Databricks SQL Warehouse
-4. Refreshes Bronze → Silver → Gold tables
-
-Credentials are stored securely as **GitHub Actions Secrets** — never hardcoded.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.11+
-- Databricks workspace with SQL Warehouse
-- GitHub repository secrets configured
-
-### Local Setup
-
+### 1. Clone the repository
 ```bash
-git clone https://github.com/SuneraUdana/Brand-Detection-Pipeline.git
-cd Brand-Detection-Pipeline
+git clone https://github.com/<your-username>/fashion-mnist-dashboard.git
+cd fashion-mnist-dashboard
+
+---
+
+## ⚙️ Setup & Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/fashion-mnist-dashboard.git
+cd fashion-mnist-dashboard
+
 python -m venv .venv
-source .venv/bin/activate
-pip install databricks-sql-connector
+source .venv/bin/activate        # Mac/Linux
+.venv\Scripts\activate           # Windows
+
+pip install -r requirements.txt
+
+DATABRICKS_HOST=<your-workspace-url>
+DATABRICKS_HTTP_PATH=<your-sql-warehouse-http-path>
+DATABRICKS_TOKEN=<your-personal-access-token>
+
+ Tech Stack
+Layer	Technology
+Data Engineering	Databricks, Delta Lake, PySpark
+Model Training	TensorFlow / Keras, NumPy
+Feature Extraction	Keras functional layers, TF functions
+Similarity Search	scikit-learn (cosine similarity)
+Dashboard	Streamlit, Plotly Express
+Image Processing	Pillow (PIL)
+Database	Databricks SQL Connector, Delta tables
+Environment	Python 3.11, python-dotenv
+
+🔮 Future Improvements
+ Re-enable Databricks Tab 1 with renewed credits
+
+ Add batch image upload for the Product Tagger
+
+ Deploy to Streamlit Cloud
+
+ Add FAISS for faster similarity search at scale
+
+ Integrate MLflow for experiment tracking
+
+ Build a REST API layer with FastAPI
+
+👤 Author
+Sunera Udana
+BSc in Artificial Intelligence & Data Science RGU Aberdeen UK
+
+🔗 LinkedIn - https://www.linkedin.com/in/sunera-wanninayaka-461358242/
+
+💻 GitHub - https://github.com/SuneraUdana/fashion-mnist-dashboard
+
+📧 suneraudana1@gmail.com
