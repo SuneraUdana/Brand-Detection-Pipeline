@@ -1,0 +1,501 @@
+item_id,true_label,predicted_label,confidence,correct,return_risk
+1977,T-shirt,T-shirt,0.9999,True,Low
+3880,Pullover,Dress,0.9773,False,Low
+52,Sandal,Sandal,1.0,True,Low
+2551,Shirt,Coat,0.5326,False,Medium
+2246,Ankle boot,Ankle boot,1.0,True,Low
+270,Trouser,Trouser,1.0,True,Low
+601,Ankle boot,Ankle boot,1.0,True,Low
+2441,Coat,Coat,0.9978,True,Low
+3286,Pullover,Pullover,0.9982,True,Low
+2967,Coat,Coat,0.8713,True,Low
+4712,Sneaker,Sneaker,0.9978,True,Low
+9032,Shirt,Pullover,0.7111,False,Medium
+1787,Dress,Dress,0.9753,True,Low
+1698,Shirt,Shirt,0.9439,True,Low
+3225,Shirt,Shirt,0.7452,True,Medium
+403,T-shirt,T-shirt,0.9764,True,Low
+3534,Pullover,Coat,0.79,False,Medium
+6046,Trouser,Trouser,0.9951,True,Low
+3047,Dress,Dress,0.8702,True,Low
+8862,T-shirt,T-shirt,0.9998,True,Low
+7146,Sandal,Sandal,1.0,True,Low
+507,Pullover,Pullover,0.999,True,Low
+4476,Trouser,Trouser,0.9998,True,Low
+1677,Sandal,Sandal,0.9998,True,Low
+2020,Pullover,Pullover,0.7546,True,Medium
+1682,Sneaker,Sandal,0.6571,False,Medium
+1649,Shirt,Shirt,0.986,True,Low
+2421,Coat,Coat,0.9189,True,Low
+7537,Coat,Coat,0.9889,True,Low
+4793,Sandal,Sandal,1.0,True,Low
+9636,Bag,Bag,0.9974,True,Low
+1015,Bag,Bag,1.0,True,Low
+8921,Ankle boot,Ankle boot,1.0,True,Low
+3044,Pullover,Pullover,0.9987,True,Low
+3498,Sneaker,Sneaker,1.0,True,Low
+5524,Trouser,Trouser,1.0,True,Low
+9554,Dress,Dress,0.5554,True,Medium
+2846,Ankle boot,Ankle boot,0.9999,True,Low
+835,Trouser,Trouser,1.0,True,Low
+4863,Sneaker,Sneaker,1.0,True,Low
+3297,Pullover,Coat,0.7863,False,Medium
+7961,Sneaker,Sneaker,0.9115,True,Low
+3145,Shirt,Shirt,0.9847,True,Low
+6115,Ankle boot,Ankle boot,0.9389,True,Low
+1901,Trouser,Trouser,1.0,True,Low
+1411,Sandal,Sandal,1.0,True,Low
+623,Ankle boot,Ankle boot,0.909,True,Low
+3503,Trouser,Trouser,1.0,True,Low
+3066,Sneaker,Sneaker,0.9998,True,Low
+641,Sandal,Sandal,1.0,True,Low
+2170,Sandal,Sandal,1.0,True,Low
+6821,T-shirt,T-shirt,0.9996,True,Low
+7418,Ankle boot,Ankle boot,1.0,True,Low
+1719,Coat,Coat,0.9977,True,Low
+1302,Trouser,Trouser,1.0,True,Low
+7827,Dress,Dress,1.0,True,Low
+5792,Pullover,Pullover,0.9062,True,Low
+9925,Bag,Bag,0.9997,True,Low
+8337,T-shirt,T-shirt,0.9999,True,Low
+3435,Pullover,Pullover,0.9988,True,Low
+3656,Ankle boot,Ankle boot,0.9994,True,Low
+5548,Dress,Dress,0.9933,True,Low
+65,Trouser,Trouser,1.0,True,Low
+2417,Shirt,Shirt,0.524,True,Medium
+3692,Ankle boot,Ankle boot,1.0,True,Low
+3999,Ankle boot,Sandal,0.5878,False,Medium
+5497,Shirt,Coat,0.766,False,Medium
+438,Trouser,Trouser,1.0,True,Low
+3566,Sandal,Sandal,1.0,True,Low
+6931,Bag,Bag,1.0,True,Low
+1818,Trouser,Trouser,1.0,True,Low
+3605,Ankle boot,Ankle boot,1.0,True,Low
+2794,Coat,Coat,0.9918,True,Low
+5077,Ankle boot,Sneaker,0.9198,False,Low
+2465,Coat,Coat,0.9994,True,Low
+4312,Bag,Bag,1.0,True,Low
+5233,Trouser,Trouser,1.0,True,Low
+6475,Sneaker,Sneaker,0.982,True,Low
+4466,Sandal,Sandal,1.0,True,Low
+4381,T-shirt,T-shirt,0.9041,True,Low
+5120,Coat,Coat,0.9743,True,Low
+4562,Pullover,Pullover,0.9984,True,Low
+378,Coat,Dress,0.9558,False,Low
+2759,T-shirt,T-shirt,0.9918,True,Low
+6959,Coat,Coat,0.9037,True,Low
+6781,Trouser,Trouser,1.0,True,Low
+1289,Sandal,Sandal,1.0,True,Low
+6743,Sneaker,Sneaker,0.9993,True,Low
+11,Sandal,Sandal,0.9997,True,Low
+2066,Ankle boot,Ankle boot,0.9999,True,Low
+6210,Coat,Coat,0.9995,True,Low
+4479,Sandal,Sandal,1.0,True,Low
+1055,Coat,Coat,0.8293,True,Medium
+3700,Shirt,Shirt,0.9768,True,Low
+5577,T-shirt,T-shirt,0.9483,True,Low
+9025,Shirt,Shirt,0.7095,True,Medium
+4641,Coat,Coat,0.9937,True,Low
+8722,Sneaker,Sneaker,0.9993,True,Low
+9736,Coat,Coat,0.9534,True,Low
+1111,T-shirt,Dress,0.9998,False,Low
+9271,Dress,Dress,1.0,True,Low
+2729,Trouser,Trouser,1.0,True,Low
+737,T-shirt,T-shirt,0.9681,True,Low
+1748,T-shirt,T-shirt,0.9998,True,Low
+9311,Trouser,Trouser,1.0,True,Low
+7787,T-shirt,T-shirt,1.0,True,Low
+5591,Sneaker,Sneaker,1.0,True,Low
+2434,Dress,Dress,1.0,True,Low
+1545,Shirt,Shirt,0.9077,True,Low
+2893,Shirt,Shirt,0.9027,True,Low
+3817,Bag,Bag,1.0,True,Low
+1195,Sneaker,Sneaker,0.8968,True,Low
+8003,Dress,Dress,0.9984,True,Low
+3448,Sneaker,Sneaker,0.9992,True,Low
+1435,Sandal,Sandal,1.0,True,Low
+9473,Shirt,Shirt,0.9929,True,Low
+8436,Pullover,Pullover,0.877,True,Low
+3029,Ankle boot,Ankle boot,1.0,True,Low
+6354,Dress,Dress,0.9998,True,Low
+3774,Bag,Bag,0.9985,True,Low
+8922,Ankle boot,Ankle boot,0.9985,True,Low
+36,Sneaker,Sneaker,0.9998,True,Low
+3552,T-shirt,T-shirt,0.4881,True,High
+3283,T-shirt,T-shirt,0.5318,True,Medium
+6450,Trouser,Trouser,1.0,True,Low
+9030,Sandal,Sandal,0.9994,True,Low
+5068,Pullover,Pullover,0.9999,True,Low
+5357,Sneaker,Sneaker,0.9993,True,Low
+831,Sandal,Sandal,1.0,True,Low
+374,T-shirt,T-shirt,0.6714,True,Medium
+4076,Sandal,Sandal,1.0,True,Low
+8575,Sandal,Sandal,0.9993,True,Low
+8052,Coat,Coat,0.9546,True,Low
+3730,Coat,Dress,0.8368,False,Medium
+4904,Sneaker,Sneaker,0.9918,True,Low
+5426,Pullover,Pullover,0.9143,True,Low
+1762,Sandal,Sandal,1.0,True,Low
+1730,Ankle boot,Ankle boot,1.0,True,Low
+3752,T-shirt,T-shirt,0.9997,True,Low
+5463,Sandal,Sandal,1.0,True,Low
+3581,Sandal,Sandal,1.0,True,Low
+7179,Dress,Dress,0.9721,True,Low
+1543,Dress,Dress,0.6479,True,Medium
+7170,Sandal,Sandal,1.0,True,Low
+948,T-shirt,Shirt,0.5108,False,Medium
+533,Bag,Bag,1.0,True,Low
+2755,Dress,Dress,0.9972,True,Low
+7167,Shirt,Pullover,0.7938,False,Medium
+1657,Ankle boot,Ankle boot,1.0,True,Low
+2971,Bag,Bag,1.0,True,Low
+3253,Sandal,Sandal,0.9774,True,Low
+2701,Coat,Coat,0.7514,True,Medium
+6838,Trouser,Trouser,1.0,True,Low
+8124,Ankle boot,Ankle boot,1.0,True,Low
+934,Dress,Dress,1.0,True,Low
+5054,Sneaker,Sneaker,0.9998,True,Low
+922,Bag,Bag,1.0,True,Low
+9571,T-shirt,Shirt,0.5812,False,Medium
+6088,Sneaker,Sneaker,0.8908,True,Low
+4891,Bag,Bag,1.0,True,Low
+4648,Trouser,Trouser,1.0,True,Low
+1209,Ankle boot,Ankle boot,0.9998,True,Low
+4711,T-shirt,Pullover,0.2642,False,High
+4091,Pullover,Pullover,0.9288,True,Low
+9773,Bag,Bag,1.0,True,Low
+4782,Sneaker,Sandal,0.7883,False,Medium
+7133,Sandal,Sneaker,0.7299,False,Medium
+6593,T-shirt,Shirt,0.7906,False,Medium
+3944,Pullover,Pullover,0.9792,True,Low
+345,Trouser,Trouser,1.0,True,Low
+5811,Trouser,Trouser,1.0,True,Low
+3682,T-shirt,T-shirt,0.9401,True,Low
+6738,Ankle boot,Ankle boot,1.0,True,Low
+8931,Dress,Dress,0.9878,True,Low
+3062,Trouser,Trouser,1.0,True,Low
+2315,Pullover,Pullover,0.9304,True,Low
+5608,Sneaker,Sneaker,0.9287,True,Low
+571,Coat,Coat,0.9993,True,Low
+6889,Trouser,Trouser,1.0,True,Low
+1875,Ankle boot,Ankle boot,1.0,True,Low
+56,Bag,Bag,1.0,True,Low
+3087,Ankle boot,Ankle boot,0.9049,True,Low
+6766,Ankle boot,Ankle boot,1.0,True,Low
+9062,Coat,Pullover,0.821,False,Medium
+1312,Coat,Coat,0.6331,True,Medium
+7332,Dress,Dress,0.8793,True,Low
+1385,Coat,Coat,0.9259,True,Low
+6095,Bag,Bag,1.0,True,Low
+3538,Sneaker,Sneaker,1.0,True,Low
+8686,Bag,Bag,1.0,True,Low
+8201,Trouser,Trouser,1.0,True,Low
+9960,Trouser,Trouser,1.0,True,Low
+945,Sandal,Sandal,0.9999,True,Low
+1665,Dress,Coat,0.7409,False,Medium
+1442,Sandal,Sandal,1.0,True,Low
+5644,Sandal,Sandal,1.0,True,Low
+5722,Ankle boot,Ankle boot,1.0,True,Low
+4660,Dress,Dress,0.9994,True,Low
+2105,T-shirt,T-shirt,1.0,True,Low
+1763,Pullover,Pullover,0.6252,True,Medium
+6729,Ankle boot,Ankle boot,0.9948,True,Low
+7447,Bag,Bag,1.0,True,Low
+606,Ankle boot,Ankle boot,1.0,True,Low
+4558,Sneaker,Sneaker,0.999,True,Low
+6902,Shirt,Shirt,0.8247,True,Medium
+3648,Pullover,Pullover,0.9998,True,Low
+4468,Ankle boot,Ankle boot,0.9988,True,Low
+9695,Sneaker,Sneaker,1.0,True,Low
+2199,Trouser,Trouser,1.0,True,Low
+863,Trouser,Trouser,1.0,True,Low
+5704,Sneaker,Sneaker,0.9866,True,Low
+5894,Sandal,Sandal,1.0,True,Low
+7394,Dress,Dress,1.0,True,Low
+5253,Trouser,Trouser,1.0,True,Low
+7545,Coat,Coat,0.7945,True,Medium
+4332,Ankle boot,Ankle boot,1.0,True,Low
+1297,Coat,Coat,0.7288,True,Medium
+3717,Bag,Bag,1.0,True,Low
+3340,Dress,Dress,0.9994,True,Low
+8908,Trouser,Trouser,1.0,True,Low
+1521,Bag,Bag,0.9938,True,Low
+7155,Trouser,Trouser,1.0,True,Low
+2766,Coat,Coat,0.9983,True,Low
+4656,Bag,Bag,1.0,True,Low
+9992,Bag,Bag,1.0,True,Low
+2498,Shirt,Shirt,0.5012,True,Medium
+748,Bag,Bag,1.0,True,Low
+3990,Ankle boot,Ankle boot,1.0,True,Low
+1931,Bag,Bag,1.0,True,Low
+3060,Sandal,Sandal,1.0,True,Low
+8001,Pullover,Pullover,0.8425,True,Medium
+2267,Bag,Bag,1.0,True,Low
+6012,Dress,Shirt,0.4143,False,High
+5550,Sneaker,Sneaker,0.9999,True,Low
+6499,Shirt,Shirt,0.9685,True,Low
+5856,T-shirt,Shirt,0.6428,False,Medium
+2979,Shirt,T-shirt,0.4292,False,High
+5232,Trouser,Trouser,1.0,True,Low
+2995,Ankle boot,Ankle boot,1.0,True,Low
+2856,Shirt,T-shirt,0.997,False,Low
+4690,T-shirt,T-shirt,0.9441,True,Low
+8553,Sneaker,Sneaker,0.9996,True,Low
+1944,Shirt,Shirt,0.9012,True,Low
+9024,Coat,Coat,0.9932,True,Low
+8270,Dress,Dress,1.0,True,Low
+7992,Shirt,Shirt,0.5912,True,Medium
+6989,Pullover,Pullover,0.991,True,Low
+4364,Coat,Coat,0.9534,True,Low
+9604,Pullover,Pullover,0.9155,True,Low
+9343,Sneaker,Sneaker,0.9998,True,Low
+4003,Bag,Bag,1.0,True,Low
+3414,Dress,Dress,1.0,True,Low
+2406,Trouser,Trouser,1.0,True,Low
+2350,Ankle boot,Ankle boot,1.0,True,Low
+6693,Trouser,Trouser,1.0,True,Low
+9021,T-shirt,T-shirt,0.9958,True,Low
+3524,Ankle boot,Ankle boot,0.9918,True,Low
+5473,Shirt,Pullover,0.5684,False,Medium
+9263,Coat,Coat,0.8098,True,Medium
+9639,Pullover,Pullover,0.9766,True,Low
+7484,Sandal,Sandal,1.0,True,Low
+3657,Dress,Dress,0.8986,True,Low
+2408,Coat,Coat,0.8229,True,Medium
+7429,Dress,Dress,0.9771,True,Low
+8904,Bag,Bag,1.0,True,Low
+5555,T-shirt,T-shirt,0.9978,True,Low
+1263,Bag,Bag,0.9996,True,Low
+6419,Sandal,Sandal,1.0,True,Low
+1136,Coat,Coat,0.9759,True,Low
+6824,Bag,Bag,1.0,True,Low
+6946,Sneaker,Sneaker,1.0,True,Low
+5930,Sneaker,Sneaker,1.0,True,Low
+8824,Sneaker,Sneaker,0.9999,True,Low
+8846,Sneaker,Sneaker,0.9999,True,Low
+2461,Ankle boot,Ankle boot,1.0,True,Low
+2547,Pullover,Pullover,0.9968,True,Low
+6113,Trouser,Trouser,1.0,True,Low
+3179,Coat,Coat,0.9409,True,Low
+8715,T-shirt,Shirt,0.6547,False,Medium
+1213,Pullover,Pullover,0.9813,True,Low
+4833,Sneaker,Sneaker,0.9786,True,Low
+7953,Coat,Coat,0.9147,True,Low
+4184,Sneaker,Sneaker,0.9635,True,Low
+1589,Bag,Bag,0.9998,True,Low
+2346,Dress,Dress,0.9999,True,Low
+2037,Sandal,Sneaker,0.8245,False,Medium
+9122,Shirt,Shirt,0.7034,True,Medium
+1243,Coat,Coat,0.9395,True,Low
+79,Coat,Coat,0.9822,True,Low
+5686,Coat,Coat,0.8899,True,Low
+6287,Dress,Dress,0.9935,True,Low
+99,Pullover,Pullover,0.9611,True,Low
+7734,Sandal,Sandal,1.0,True,Low
+882,Bag,Bag,0.9999,True,Low
+1860,Trouser,Trouser,1.0,True,Low
+2208,Pullover,Pullover,0.998,True,Low
+8594,Coat,Coat,0.8669,True,Low
+67,Dress,Coat,0.5862,False,Medium
+6873,Pullover,Pullover,0.9789,True,Low
+2360,Sandal,Sandal,1.0,True,Low
+732,Pullover,T-shirt,0.9512,False,Low
+9632,Coat,Pullover,0.7675,False,Medium
+7778,Shirt,T-shirt,0.9048,False,Low
+5928,Sandal,Sandal,1.0,True,Low
+920,Bag,Bag,0.9746,True,Low
+7434,Coat,Coat,0.9242,True,Low
+8795,Sneaker,Sneaker,0.9995,True,Low
+1526,Ankle boot,Ankle boot,1.0,True,Low
+5396,Sneaker,Sneaker,0.9999,True,Low
+656,T-shirt,T-shirt,0.9747,True,Low
+7901,Trouser,Trouser,1.0,True,Low
+1110,Sandal,Sandal,1.0,True,Low
+7104,Ankle boot,Ankle boot,1.0,True,Low
+8299,Dress,Dress,1.0,True,Low
+2423,Sandal,Sandal,0.9996,True,Low
+500,Pullover,Pullover,0.9687,True,Low
+8645,T-shirt,T-shirt,0.6327,True,Medium
+9189,Dress,Dress,0.9999,True,Low
+8472,Sandal,Sandal,1.0,True,Low
+3488,Shirt,T-shirt,0.8403,False,Medium
+631,Coat,Coat,0.9997,True,Low
+3427,Sandal,Sandal,1.0,True,Low
+175,Trouser,Trouser,0.9999,True,Low
+232,Ankle boot,Ankle boot,1.0,True,Low
+2338,Trouser,Trouser,1.0,True,Low
+6361,Ankle boot,Ankle boot,1.0,True,Low
+1596,Coat,Coat,0.8228,True,Medium
+3816,Pullover,Pullover,0.5051,True,Medium
+3274,Sneaker,Sneaker,0.7787,True,Medium
+5836,Sneaker,Sneaker,0.9995,True,Low
+8849,Bag,Bag,1.0,True,Low
+5204,Dress,Dress,0.6506,True,Medium
+3739,Dress,Dress,0.9963,True,Low
+7305,T-shirt,T-shirt,0.6019,True,Medium
+8570,Bag,Bag,1.0,True,Low
+5919,Coat,Coat,0.9943,True,Low
+6424,Coat,Coat,0.9986,True,Low
+1483,T-shirt,T-shirt,0.9953,True,Low
+6532,Pullover,Pullover,0.8636,True,Low
+3976,Bag,Bag,1.0,True,Low
+4029,Bag,Bag,1.0,True,Low
+3564,Trouser,Trouser,1.0,True,Low
+9760,Sandal,Sandal,1.0,True,Low
+1685,Sandal,Sandal,1.0,True,Low
+173,Trouser,Trouser,1.0,True,Low
+1180,Sandal,Sandal,1.0,True,Low
+1407,Coat,Coat,0.9999,True,Low
+8936,Bag,Bag,1.0,True,Low
+6994,Coat,Coat,0.9392,True,Low
+3600,Bag,Bag,1.0,True,Low
+5011,Bag,Bag,1.0,True,Low
+4821,Ankle boot,Ankle boot,1.0,True,Low
+4655,Sandal,Sandal,1.0,True,Low
+4607,Sandal,Sandal,1.0,True,Low
+9084,Trouser,Trouser,0.9997,True,Low
+8223,Bag,Bag,1.0,True,Low
+8785,Ankle boot,Ankle boot,0.9998,True,Low
+6793,Ankle boot,Ankle boot,1.0,True,Low
+1458,Shirt,Shirt,0.625,True,Medium
+5991,Dress,Dress,0.9999,True,Low
+5014,Shirt,Shirt,0.7129,True,Medium
+1192,Pullover,Pullover,0.5976,True,Medium
+3725,Bag,Bag,1.0,True,Low
+9107,Sneaker,Sneaker,0.9997,True,Low
+420,Sandal,Sandal,1.0,True,Low
+2028,Sneaker,Sneaker,0.9997,True,Low
+8164,Trouser,Trouser,1.0,True,Low
+6750,Sneaker,Sneaker,0.9998,True,Low
+4929,Bag,Bag,0.9949,True,Low
+7036,Trouser,Trouser,0.9309,True,Low
+3299,Ankle boot,Ankle boot,1.0,True,Low
+5280,Trouser,Trouser,0.9935,True,Low
+4824,Shirt,Shirt,0.8339,True,Medium
+6349,Sneaker,Sneaker,1.0,True,Low
+2302,T-shirt,Shirt,0.5421,False,Medium
+6685,T-shirt,T-shirt,0.4897,True,High
+1421,Dress,Dress,0.9999,True,Low
+4410,Trouser,Trouser,1.0,True,Low
+2792,Pullover,Pullover,0.9999,True,Low
+8080,Coat,Coat,0.7989,True,Medium
+9395,Sneaker,Sneaker,1.0,True,Low
+3559,Sneaker,Sneaker,0.9957,True,Low
+2142,Sneaker,Sneaker,0.9746,True,Low
+843,Trouser,Trouser,1.0,True,Low
+1450,T-shirt,T-shirt,0.7368,True,Medium
+8578,Trouser,Trouser,1.0,True,Low
+5019,Ankle boot,Ankle boot,1.0,True,Low
+3359,Sneaker,Sneaker,0.9999,True,Low
+8820,Trouser,Trouser,1.0,True,Low
+6859,Coat,Pullover,0.5824,False,Medium
+4522,T-shirt,T-shirt,0.9992,True,Low
+1592,Trouser,Trouser,0.9367,True,Low
+6214,Sandal,Sandal,1.0,True,Low
+6527,T-shirt,T-shirt,1.0,True,Low
+5219,Ankle boot,Ankle boot,1.0,True,Low
+5972,Bag,Bag,1.0,True,Low
+1384,Sandal,Sandal,1.0,True,Low
+3116,Shirt,Shirt,0.6864,True,Medium
+2034,Ankle boot,Ankle boot,1.0,True,Low
+2466,Sandal,Sandal,1.0,True,Low
+2411,Sneaker,Sneaker,0.9996,True,Low
+8747,Trouser,Trouser,1.0,True,Low
+7001,Pullover,Pullover,0.9945,True,Low
+639,Coat,Coat,0.6753,True,Medium
+3436,Dress,T-shirt,0.5692,False,Medium
+4796,Coat,Coat,0.9624,True,Low
+6592,Sandal,Sandal,1.0,True,Low
+2383,Sandal,Sandal,1.0,True,Low
+6745,Coat,Coat,0.9945,True,Low
+1970,T-shirt,T-shirt,0.6538,True,Medium
+6680,Sneaker,Sneaker,0.9624,True,Low
+9023,Coat,Coat,0.9712,True,Low
+3393,Shirt,Shirt,0.9834,True,Low
+4935,Dress,Dress,0.9999,True,Low
+1041,Sandal,Sandal,1.0,True,Low
+4842,Shirt,Shirt,0.7339,True,Medium
+2953,T-shirt,Pullover,0.8442,False,Medium
+1406,Bag,Bag,1.0,True,Low
+9763,Trouser,Trouser,1.0,True,Low
+5481,Pullover,Pullover,0.9748,True,Low
+2955,Ankle boot,Ankle boot,0.9994,True,Low
+5284,Pullover,Pullover,0.6752,True,Medium
+8817,Sneaker,Sneaker,0.9995,True,Low
+1837,Pullover,Pullover,0.9598,True,Low
+2209,Coat,Coat,0.929,True,Low
+8033,Shirt,T-shirt,0.7759,False,Medium
+6382,Coat,Coat,0.9958,True,Low
+7093,Bag,Bag,0.9999,True,Low
+8924,Ankle boot,Ankle boot,1.0,True,Low
+9849,Sandal,Sandal,1.0,True,Low
+3243,Trouser,Trouser,1.0,True,Low
+8284,Bag,Bag,1.0,True,Low
+6675,Trouser,Trouser,1.0,True,Low
+60,Sneaker,Sneaker,0.9997,True,Low
+5775,Pullover,Pullover,0.9475,True,Low
+5512,Ankle boot,T-shirt,0.8792,False,Low
+4268,Sneaker,Sneaker,0.9998,True,Low
+3722,Dress,Dress,0.9999,True,Low
+7759,Sneaker,Sneaker,0.9292,True,Low
+9967,Ankle boot,Ankle boot,1.0,True,Low
+5173,Coat,Coat,0.5374,True,Medium
+7115,Trouser,Trouser,1.0,True,Low
+8799,Coat,Coat,0.5887,True,Medium
+163,Ankle boot,Ankle boot,0.9992,True,Low
+3723,Ankle boot,Ankle boot,0.9983,True,Low
+8264,Pullover,Pullover,0.9889,True,Low
+6013,Pullover,Pullover,0.9917,True,Low
+4063,Sneaker,Sneaker,1.0,True,Low
+6760,T-shirt,T-shirt,0.9847,True,Low
+2168,Dress,Dress,0.9986,True,Low
+3023,Ankle boot,Ankle boot,1.0,True,Low
+4231,Shirt,T-shirt,0.8966,False,Low
+4706,Coat,Coat,0.9997,True,Low
+6689,Dress,Dress,0.5179,True,Medium
+5635,Dress,Dress,1.0,True,Low
+3883,Sandal,Sandal,0.9887,True,Low
+112,Sneaker,Sneaker,1.0,True,Low
+5443,T-shirt,T-shirt,0.9992,True,Low
+1673,Coat,Coat,0.995,True,Low
+8581,Ankle boot,Ankle boot,1.0,True,Low
+9342,T-shirt,Pullover,0.4844,False,High
+8098,Sandal,Sandal,1.0,True,Low
+4159,Pullover,T-shirt,0.9093,False,Low
+1329,Coat,Pullover,0.6438,False,Medium
+9520,Sandal,Sandal,1.0,True,Low
+3331,T-shirt,T-shirt,0.9818,True,Low
+4764,Dress,Shirt,0.5894,False,Medium
+3787,Shirt,Pullover,0.9628,False,Low
+8850,Dress,Dress,0.9845,True,Low
+6757,T-shirt,T-shirt,1.0,True,Low
+796,Dress,Dress,0.9973,True,Low
+9905,Sneaker,Sneaker,0.9998,True,Low
+3362,Sandal,Sandal,1.0,True,Low
+4836,Shirt,Dress,0.379,False,High
+652,T-shirt,T-shirt,0.9971,True,Low
+8771,Sneaker,Sneaker,0.9983,True,Low
+1229,Pullover,Pullover,0.9889,True,Low
+4571,Coat,Coat,0.892,True,Low
+7972,T-shirt,T-shirt,0.9996,True,Low
+8007,T-shirt,Shirt,0.6183,False,Medium
+412,Sneaker,Sneaker,1.0,True,Low
+2399,Ankle boot,Ankle boot,0.9996,True,Low
+5718,T-shirt,Dress,0.381,False,High
+4347,Sandal,Sandal,1.0,True,Low
+227,Pullover,Pullover,0.9935,True,Low
+6643,Sandal,Sandal,1.0,True,Low
+7110,Coat,Coat,0.9777,True,Low
+2573,Coat,Dress,0.5665,False,Medium
+761,Shirt,Shirt,0.8012,True,Medium
+1460,Coat,Coat,0.8519,True,Low
+2904,Pullover,Pullover,0.9686,True,Low
+2368,Coat,Coat,0.9963,True,Low
+1561,T-shirt,T-shirt,0.8305,True,Medium
+4484,Coat,Coat,0.7352,True,Medium
+8288,Shirt,Shirt,0.9375,True,Low
+3676,Dress,Dress,0.9995,True,Low
+8075,Shirt,Shirt,0.9803,True,Low
+1363,Sandal,Sandal,1.0,True,Low
+6489,Sneaker,Sneaker,0.9997,True,Low
+9321,Bag,Bag,1.0,True,Low

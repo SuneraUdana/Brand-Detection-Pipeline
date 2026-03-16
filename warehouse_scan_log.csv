@@ -1,0 +1,21 @@
+item_no,true_label,predicted_label,confidence,correct,scan_time_ms,scan_batch_id
+1,Shirt,Shirt,0.9022,True,30.96,20260316_060936
+2,Dress,Dress,0.9994,True,0.57,20260316_060936
+3,T-shirt,Shirt,0.5656,False,0.28,20260316_060936
+4,Sandal,Ankle boot,0.9643,False,0.26,20260316_060936
+5,Pullover,Pullover,0.9883,True,0.25,20260316_060936
+6,Sandal,Sandal,1.0,True,0.29,20260316_060936
+7,Ankle boot,Ankle boot,1.0,True,0.26,20260316_060936
+8,Sandal,Sandal,1.0,True,0.25,20260316_060936
+9,Shirt,Shirt,0.6974,True,0.3,20260316_060936
+10,Dress,Dress,0.9995,True,0.23,20260316_060936
+11,Bag,Bag,1.0,True,0.23,20260316_060936
+12,Trouser,Trouser,1.0,True,0.23,20260316_060936
+13,T-shirt,T-shirt,0.733,True,0.22,20260316_060936
+14,Dress,Dress,0.9913,True,0.22,20260316_060936
+15,Ankle boot,Sandal,0.5878,False,0.22,20260316_060936
+16,Shirt,Shirt,0.9031,True,0.23,20260316_060936
+17,Sneaker,Sneaker,0.9696,True,0.22,20260316_060936
+18,Pullover,Pullover,0.9621,True,0.21,20260316_060936
+19,Ankle boot,Ankle boot,1.0,True,0.22,20260316_060936
+20,Bag,Bag,1.0,True,0.21,20260316_060936

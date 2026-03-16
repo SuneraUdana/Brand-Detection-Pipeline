@@ -14,3 +14,4 @@ SELECT
 FROM workspace.default.brand_detection_bronze
 WHERE image_url IS NOT NULL
   AND category  IS NOT NULL;
+
